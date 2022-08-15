@@ -35,6 +35,10 @@ If you have any errors like:"npm ERR! ERESOLVE could not resolve", type this:
 ```bash
 npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator --force
 ```
+Initialize yarn:
+```bash
+yarn
+```
 Well, we finally finish with installation part.
 
 ## Run our tests
@@ -48,11 +52,14 @@ or
 ```bash
 npx cypress run
 ```
-and
+Via yarn:
 ```bash
 yarn cypress:run
 ```
-
+or
+```bash
+yarn test
+```
 For execution from from the Test Runner(the best option I think, at least because of the very comfortable GUI), you should run:
 ```bash
 ./node_modules/.bin/cypress open
@@ -61,7 +68,7 @@ or
 ```bash
 npx cypress open
 ```
-and
+Via yarn:
 ```bash
 yarn cypress:open
 ```
