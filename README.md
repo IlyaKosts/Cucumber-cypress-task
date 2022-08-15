@@ -3,7 +3,9 @@
 ## Before installing cypress make sure that:
 
 Node.js is installed (v 14 or higher), link:"https://nodejs.org/en/";
+
 Git is installed (v 2.37.2), link:"https://git-scm.com/downloads";
+
 Yarn is inslalled (v 1.22 or higher), link:"https://yarnpkg.com/getting-started/install".
 
 ## Installing cypress
