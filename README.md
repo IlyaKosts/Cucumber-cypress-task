@@ -15,6 +15,10 @@ Yarn is inslalled (v 1.22 or higher), link:"https://yarnpkg.com/getting-started/
 ```bash
 npm install cypress --save-dev
 ```
+Or via yarn:
+```bash
+yarn add cypress --dev
+```
 The process should look something like this:
 
 ![installing-cli e1693232](https://user-images.githubusercontent.com/1271364/31740846-7bf607f0-b420-11e7-855f-41c996040d31.gif)
