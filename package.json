@@ -6,10 +6,10 @@
   "scripts": {
     "build": "rollup -c",
     "start": "http-server",
-    "test": "cypress run --record --key eec4f973-f592-46f2-a132-5d464f0a345c",
+    "test": "cypress run --reporter-options reportDir='cypress/results',overwrite=false,html=true,json=true",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --record --key eec4f973-f592-46f2-a132-5d464f0a345c",
-    "cypress:record": "cypress run --record --key"
+    "cypress:run": "cypress run --reporter-options reportDir='cypress/results',overwrite=false,html=true,json=true",
+    "cypress:record": "cypress run --record --key eec4f973-f592-46f2-a132-5d464f0a345c"
   },
   "keywords": [
     "cypress"
