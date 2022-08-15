@@ -8,7 +8,7 @@
     "start": "http-server",
     "test": "cypress run --record --key abc123 --reporter-options reportDir='cypress/results',overwrite=false,html=true,json=true",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --record --key=abc123 --reporter-options reportDir='cypress/results',overwrite=false,html=true,json=true",
+    "cypress:run": "cypress run --record --key abc123 --reporter-options reportDir='cypress/results',overwrite=false,html=true,json=true",
     "cypress:record": "cypress run --record --key"
   },
   "keywords": [
