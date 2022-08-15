@@ -18,6 +18,7 @@ module.exports = defineConfig({
     baseUrl: "https://telnyx.com",
     chromeWebSecurity: false,
   },
+  projectId: 'a0000001',
   defaultCommandTimeout: 20000,
   pageLoadTimeout: 40000,
   viewportWidth: 1400,
