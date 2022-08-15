@@ -10,7 +10,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --reporter-options reportDir='cypress/results',overwrite=false,html=true,json=true",
     "cypress:record": "cypress run --record --key eec4f973-f592-46f2-a132-5d464f0a345c",
-    "report:merge": "mochawesome-merge 'cypress/results'/*.json > index.json"
+    "report:merge": "mochawesome-merge 'cypress/results'/*.json > index.json",
+    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
   "keywords": [
     "cypress"
