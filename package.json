@@ -1,0 +1,30 @@
+{
+  "name": "cypress_cucumber_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "http-server",
+    "test": "cypress run --reporter-options reportDir='cypress/results',overwrite=false,html=true,json=true",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --reporter-options reportDir='cypress/results',overwrite=false,html=true,json=true",
+    "cypress:record": "cypress run --record --key"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cypress": "^10.4.0",
+    "esbuild": "^0.15.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.0.1"
+  }
+}
